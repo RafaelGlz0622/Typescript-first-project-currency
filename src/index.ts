@@ -16,7 +16,8 @@ bAdd!.addEventListener('click', e => {
         expenses.add({title: title, cost: {number: cost, currency: currency}});
         render();
     }
-    else {
+    else 
+    {
 
         alert('Completa los datos correctamente');
     }
