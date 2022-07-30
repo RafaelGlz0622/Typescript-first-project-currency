@@ -30,6 +30,8 @@ function render(): void {
         const {number , currency } = cost;
         html += `
             <div class="item">
+
+            
                 <div><span class="currency">${currency}</span> ${number}</div>
                 <div>${title}</div>
                 <div><button class="bEliminar" data-id="${id}">Eliminar</button></div>
